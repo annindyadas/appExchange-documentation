@@ -64,8 +64,8 @@ The **Forward Emails** action must be created manually on each object where you 
 |-------|-------|
 | Action Type | Lightning Web Component |
 | Lightning Web Component | `adasApps:emailForwarderModal` |
-| Label | Forward Emails |
-| Name | Forward_Emails |
+| Label | Email F&D |
+| Name | Email_F_D |
 
 Click **Save**.
 
