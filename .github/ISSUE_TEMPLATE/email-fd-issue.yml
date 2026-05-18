@@ -1,0 +1,94 @@
+name: Email F&D — Bug or Support Request
+description: Report an issue or ask a setup question for the Email F&D (Forward & Download) package
+labels: ["email-fd"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for raising an issue with **Email F&D (Forward & Download)**.
+        Please fill in as much detail as possible — it helps us resolve your issue faster.
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      options:
+        - Bug — something is not working
+        - Setup Help — post-installation question
+        - Feature Request — suggest an improvement
+    validations:
+      required: true
+
+  - type: dropdown
+    id: package-version
+    attributes:
+      label: Package Version
+      description: Find this in Setup → Installed Packages → Email F&D
+      options:
+        - "1.0.0"
+        - Other (specify in description)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: permission-set
+    attributes:
+      label: Permission Set Assigned
+      description: Which permission set is assigned to the affected user?
+      options:
+        - Email F&D Full Access
+        - Email F&D Download Only
+        - None assigned yet
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened? What did you expect to happen?
+      placeholder: "e.g. Clicking Forward Emails shows a blank modal instead of the email list"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Navigate to a Case record
+        2. Click Forward Emails action
+        3. Modal opens but shows no emails
+        4. Expected to see a list of emails
+
+  - type: dropdown
+    id: affected-feature
+    attributes:
+      label: Affected Feature
+      options:
+        - Forward Emails (modal)
+        - Download Emails (ZIP)
+        - Download single email (EmailMessage action)
+        - Permission Set assignment
+        - Page Layout / Quick Action setup
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: org-details
+    attributes:
+      label: Org Details
+      placeholder: |
+        Salesforce Edition: (e.g. Enterprise, Unlimited)
+        API Version:
+        Email-to-Case enabled: Yes / No
+        "Save Email-to-Case attachments as Salesforce Files" enabled: Yes / No / Not applicable
+
+  - type: textarea
+    id: error-message
+    attributes:
+      label: Error Message (if any)
+      description: Paste the exact error message or screenshot description here
+      render: shell
