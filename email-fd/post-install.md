@@ -116,4 +116,4 @@ Click **Save**.
 
 ## Support
 
-If you encounter any issues please open a ticket on our [GitHub support page](https://github.com/adasApps) or contact us via the AppExchange listing.
+If you encounter any issues please [raise an issue](https://github.com/annindyadas/appExchange-documentation/issues/new?template=email-fd-issue.yml) or contact us via the AppExchange listing.
