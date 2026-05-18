@@ -1,4 +1,3 @@
-
 # Email F&D — Release Notes
 
 > Forward & Download for Salesforce · adasApps managed package
@@ -50,10 +49,10 @@
 
 No prior version exists. Fresh installation only.
 
-For post-installation setup steps see the [Post-Installation Guide](./post-install).
+For post-installation setup steps see the [Post-Installation Guide](https://annindyadas.github.io/appExchange-documentation/email-fd/post-install).
 
 ---
 
 ## Support
 
-Issues or questions → [open a GitHub issue](https://github.com/annindyadas/appExchange-documentation/issues) or contact via the AppExchange listing.
+Issues or questions → [raise an issue](https://github.com/annindyadas/appExchange-documentation/issues/new?template=email-fd-issue.yml) or contact via the AppExchange listing.
