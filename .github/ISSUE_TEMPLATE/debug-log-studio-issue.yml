@@ -23,19 +23,19 @@ body:
       label: Package Version
       description: Find this in Setup → Installed Packages → Debug Log Studio
       options:
-        - "1.0.0"
+        - "1.0.0 (Beta)"
         - Other (specify in description)
     validations:
       required: true
   - type: dropdown
-    id: setup-status
+    id: package-specific
     attributes:
       label: Setup Status
       description: Have all 6 setup steps been completed in the Setup tab?
       options:
-        - "Yes — all 6 steps complete (Validate & Save shows success)"
-        - "Partial — stuck on a setup step (specify in description)"
-        - "No — setup not started yet"
+        - Yes — all 6 steps complete (Validate & Save shows success)
+        - Partial — stuck on a setup step (specify in description)
+        - No — setup not started yet
         - Not sure
     validations:
       required: true
@@ -44,7 +44,7 @@ body:
     attributes:
       label: Description
       description: What happened? What did you expect to happen?
-      placeholder: "e.g. Clicking Validate Connection shows an error instead of a success message"
+      placeholder: Describe the issue in detail
     validations:
       required: true
   - type: textarea
@@ -52,10 +52,10 @@ body:
     attributes:
       label: Steps to Reproduce
       placeholder: |
-        1. Open Debug Log Studio via App Launcher
-        2. Navigate to the Explorer tab
-        3. Click View on a log row
-        4. Expected to see log content but modal is blank
+        1. 
+        2. 
+        3. 
+        4. Expected:
   - type: dropdown
     id: affected-feature
     attributes:
