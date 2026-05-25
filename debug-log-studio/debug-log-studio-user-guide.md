@@ -146,7 +146,7 @@ Click **Copy Summary** to copy the full analysis to your clipboard for sharing w
 
 ## 6. Need Help?
 
-- [Raise an issue on GitHub](https://github.com/annindyadas/sf-debug-studio/issues/new?template=debug-log-studio-issue.yml)
+- [Raise an issue on GitHub](https://github.com/annindyadas/appExchange-documentation/issues/new?template=debug-log-studio-issue.yml)
 - Connect on [LinkedIn](https://www.linkedin.com/in/annindya-das/)
 - [Post-Install Setup Guide](./debug-log-studio-post-install) — if you haven't completed setup yet
 
