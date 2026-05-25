@@ -1,4 +1,4 @@
-name: Debug Log Studio — Bug or Support Request
+name: Debug Log Studio - Bug or Support Request
 description: Report an issue or ask a setup question for the Debug Log Studio package
 labels: ["debug-log-studio"]
 body:
@@ -6,15 +6,15 @@ body:
     attributes:
       value: |
         Thanks for raising an issue with **Debug Log Studio**.
-        Please fill in as much detail as possible — it helps us resolve your issue faster.
+        Please fill in as much detail as possible - it helps us resolve your issue faster.
   - type: dropdown
     id: issue-type
     attributes:
       label: Issue Type
       options:
-        - Bug — something is not working
-        - Setup Help — post-installation question
-        - Feature Request — suggest an improvement
+        - Bug - something is not working
+        - Setup Help - post-installation question
+        - Feature Request - suggest an improvement
     validations:
       required: true
   - type: dropdown
@@ -33,9 +33,9 @@ body:
       label: Setup Status
       description: Have all 6 setup steps been completed in the Setup tab?
       options:
-        - Yes — all 6 steps complete (Validate & Save shows success)
-        - Partial — stuck on a setup step (specify in description)
-        - No — setup not started yet
+        - Yes - all 6 steps complete (Validate & Save shows success)
+        - Partial - stuck on a setup step (specify in description)
+        - No - setup not started yet
         - Not sure
     validations:
       required: true
@@ -62,13 +62,13 @@ body:
       label: Affected Feature
       options:
         - Setup Wizard (Org Domain / External Client App / Auth Provider / Named Credential / Remote Site / Validate)
-        - Explorer — log list not loading
-        - Explorer — View log (Log Viewer modal)
-        - Explorer — AI Summary
-        - Explorer — Download log
-        - Explorer — Delete / Mass Delete
-        - Trace Flags — list / create / extend / delete
-        - Debug Levels — list / create / edit / delete
+        - Explorer - log list not loading
+        - Explorer - View log (Log Viewer modal)
+        - Explorer - AI Summary
+        - Explorer - Download log
+        - Explorer - Delete / Mass Delete
+        - Trace Flags - list / create / extend / delete
+        - Debug Levels - list / create / edit / delete
         - Other
     validations:
       required: true
