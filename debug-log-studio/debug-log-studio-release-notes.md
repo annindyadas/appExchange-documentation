@@ -26,4 +26,4 @@
 
 ---
 
-*For issues or feature requests, [raise an issue on GitHub](https://github.com/annindyadas/sf-debug-studio/issues).*
+*For issues or feature requests, [raise an issue on GitHub](https://github.com/annindyadas/sf-debug-studio/issues/new?template=debug-log-studio-issue.yml).*
