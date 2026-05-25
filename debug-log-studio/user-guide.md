@@ -1,7 +1,7 @@
 # Debug Log Studio — User Guide
 
 > **Author:** Annindya Das | **Version:** 2026  
-> **New to Debug Log Studio?** Complete the [Post-Install Setup Guide](./debug-log-studio-post-install) before using this guide.
+> **New to Debug Log Studio?** Complete the [Post-Install Setup Guide](./post-install) before using this guide.
 
 ---
 
@@ -25,7 +25,7 @@ Once setup is complete, open **Debug Log Studio** from the App Launcher. The int
 | **Explorer** | View, analyse, download, and delete captured debug logs |
 | **Trace Flags** | Create and manage trace flags to start capturing logs for users |
 | **Debug Levels** | Create and manage debug level configurations |
-| **Setup** | One-time configuration wizard — see [Post-Install Guide](./debug-log-studio-post-install) |
+| **Setup** | One-time configuration wizard — see [Post-Install Guide](./post-install) |
 
 ![Debug Log Studio — main interface with four tabs](./images/dls-main-interface.png)
 
@@ -148,7 +148,7 @@ Click **Copy Summary** to copy the full analysis to your clipboard for sharing w
 
 - [Raise an issue on GitHub](https://github.com/annindyadas/appExchange-documentation/issues/new?template=debug-log-studio-issue.yml)
 - Connect on [LinkedIn](https://www.linkedin.com/in/annindya-das/)
-- [Post-Install Setup Guide](./debug-log-studio-post-install) — if you haven't completed setup yet
+- [Post-Install Setup Guide](./post-install) — if you haven't completed setup yet
 
 ---
 
