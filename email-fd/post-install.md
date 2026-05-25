@@ -1,4 +1,4 @@
-# Email F&D — Post-Installation Setup Guide
+# Email F&D - Post-Installation Setup Guide
 
 > Complete these steps after installing the package to activate all features.
 
@@ -16,7 +16,7 @@ Without this, email attachments will be missing when forwarding or downloading.
 
 ---
 
-## Step 1 — Assign Permission Sets
+## Step 1 - Assign Permission Sets
 
 Choose the right permission set based on what each user needs:
 
@@ -31,7 +31,7 @@ Choose the right permission set based on what each user needs:
 
 ---
 
-## Step 2 — Configure Email Deliverability *(Forward feature only)*
+## Step 2 - Configure Email Deliverability *(Forward feature only)*
 
 Required if users will be forwarding emails. Skip this step if your org only needs the Download feature.
 
@@ -39,7 +39,7 @@ Required if users will be forwarding emails. Skip this step if your org only nee
 
 ---
 
-## Step 3 — Add Download Action to EmailMessage Layout
+## Step 3 - Add Download Action to EmailMessage Layout
 
 The **Download** quick action is included in the package but must be added to the page layout manually.
 
@@ -52,9 +52,9 @@ The **Download** quick action is included in the package but must be added to th
 
 ---
 
-## Step 4 — Set Up Forward Emails Action *(per object)*
+## Step 4 - Set Up Forward Emails Action *(per object)*
 
-The **Forward Emails** action must be created manually on each object where you want it — for example Case, Contact, Account, or Opportunity. Repeat these steps for each object.
+The **Forward Emails** action must be created manually on each object where you want it - for example Case, Contact, Account, or Opportunity. Repeat these steps for each object.
 
 ### Create the Quick Action
 
@@ -93,12 +93,12 @@ Click **Save**.
 
 | # | Task | In Package | Action Required |
 |---|------|-----------|-----------------|
-| Pre | Save Email-to-Case attachments as Salesforce Files | — | Enable in Setup if using Email-to-Case |
-| Pre | Install as "For Admins Only" | — | Select during installation |
+| Pre | Save Email-to-Case attachments as Salesforce Files | - | Enable in Setup if using Email-to-Case |
+| Pre | Install as "For Admins Only" | - | Select during installation |
 | 1 | Permission Sets | ✅ | Assign to users based on role |
-| 2 | Email Deliverability | — | Set to "All Email" in Setup |
+| 2 | Email Deliverability | - | Set to "All Email" in Setup |
 | 3 | Download Action on EmailMessage | ✅ | Add to page layout |
-| 4 | Forward Emails Action on each object | — | Create action + add to layout per object |
+| 4 | Forward Emails Action on each object | - | Create action + add to layout per object |
 
 ---
 
@@ -109,8 +109,8 @@ Click **Save**.
 3. The modal displays all emails linked to the record
 4. Select emails using the checkboxes
 5. Choose your action:
-   - **Forward** — enter a recipient email address and click Send. Emails are delivered as `.eml` attachments including all original attachments
-   - **Download** — click Download to save selected emails as a ZIP file containing individual `.eml` files with all attachments
+   - **Forward** - enter a recipient email address and click Send. Emails are delivered as `.eml` attachments including all original attachments
+   - **Download** - click Download to save selected emails as a ZIP file containing individual `.eml` files with all attachments
 
 ---
 
