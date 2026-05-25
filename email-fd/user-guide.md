@@ -1,21 +1,21 @@
-# Email F&D (Forward & Download) — User Guide
+# Email F&D (Forward & Download) - User Guide
 
 > **Prerequisite:** Post-installation steps must be completed before using this guide.  
 > See the [Post-Install Setup Guide](https://annindyadas.github.io/appExchange-documentation/email-fd/post-install) if you have not done so yet.
 
 This guide walks through the two ways to use Email F&D:
-- **From a Case (or any supported record)** — forward or download one or multiple emails as `.eml` files via the Email F&D Quick Action.
-- **From an individual Email Message record** — download a single email directly.
+- **From a Case (or any supported record)** - forward or download one or multiple emails as `.eml` files via the Email F&D Quick Action.
+- **From an individual Email Message record** - download a single email directly.
 
 ---
 
-## Use Case 1 — Forward or Download from a Record
+## Use Case 1 - Forward or Download from a Record
 
 ### Step 1: Navigate to the Cases tab
 
-Open the **Cases** tab (or any supported object — Account, Contact, Opportunity, Lead, or a custom object with related Email Messages).
+Open the **Cases** tab (or any supported object - Account, Contact, Opportunity, Lead, or a custom object with related Email Messages).
 
-![Step 1 — Cases list view](./images/user-guide-step1-cases-list.png)
+![Step 1 - Cases list view](./images/user-guide-step1-cases-list.png)
 
 ---
 
@@ -23,7 +23,7 @@ Open the **Cases** tab (or any supported object — Account, Contact, Opportunit
 
 Select a Case that has one or more Email Messages associated with it. You will see the related emails listed in the **Feed** or **Related** tab.
 
-![Step 2 — Case record with emails](./images/user-guide-step2-case-with-emails.png)
+![Step 2 - Case record with emails](./images/user-guide-step2-case-with-emails.png)
 
 ---
 
@@ -33,7 +33,7 @@ In the Case record's action bar (top right), click the **Email F&D** button.
 
 > 💡 If you do not see the button, ask your Salesforce Administrator to add the **Email F&D** Quick Action to the page layout and assign you the correct permission set. See the [Post-Install Guide](https://annindyadas.github.io/appExchange-documentation/email-fd/post-install).
 
-![Step 3 — Email F&D button highlighted](./images/user-guide-step3-action-button.png)
+![Step 3 - Email F&D button highlighted](./images/user-guide-step3-action-button.png)
 
 ---
 
@@ -41,42 +41,42 @@ In the Case record's action bar (top right), click the **Email F&D** button.
 
 A modal pop-up will appear listing **all emails related to the record** (up to 1,000, sorted newest first).
 
-![Step 4 — Email F&D modal with email list](./images/user-guide-step4-modal.png)
+![Step 4 - Email F&D modal with email list](./images/user-guide-step4-modal.png)
 
 From here you can:
 
-#### Option A — Download as .eml files
+#### Option A - Download as .eml files
 
 1. Tick the checkbox next to the emails you want, or use the **Select All** checkbox in the header.
 2. Click **Download**.
 3. A ZIP file containing the selected emails as `.eml` files will be saved to your local machine.
 
-> ✅ A green success toast — *"Downloaded N email(s) as ZIP"* — confirms the download.
+> ✅ A green success toast - *"Downloaded N email(s) as ZIP"* - confirms the download.
 
-![Step 4a — Download success toast](./images/user-guide-step4a-download-success.png)
+![Step 4a - Download success toast](./images/user-guide-step4a-download-success.png)
 
-#### Option B — Forward emails
+#### Option B - Forward emails
 
 1. Tick the checkbox next to the emails you want to forward.
 2. Type a recipient email address in the **Forward To Email Address** field.
 3. Click **Send**.
 4. Salesforce sends the selected emails as `.eml` attachments to the recipient via its outbound mail service.
 
-> ✅ A green success toast — *"Success: N email(s) forwarded to [address]"* — confirms delivery.
+> ✅ A green success toast - *"Success: N email(s) forwarded to [address]"* - confirms delivery.
 
-![Step 4b — Forward success toast](./images/user-guide-step4b-forward-success.png)
+![Step 4b - Forward success toast](./images/user-guide-step4b-forward-success.png)
 
 ---
 
-## Use Case 2 — Download from an Individual Email Message Record
+## Use Case 2 - Download from an Individual Email Message Record
 
 ### Step 5: Open the Email Message record and click Download
 
 1. Navigate directly to an **Email Message** record (e.g. by clicking the email subject in the Case's Related list).
 2. In the action bar, click **Download**.
-3. The email is immediately downloaded as a single `.eml` file — no modal or further interaction required.
+3. The email is immediately downloaded as a single `.eml` file - no modal or further interaction required.
 
-![Step 5 — Download action on Email Message record](./images/user-guide-step5-emailmessage-download.png)
+![Step 5 - Download action on Email Message record](./images/user-guide-step5-emailmessage-download.png)
 
 ---
 
