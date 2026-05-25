@@ -47,22 +47,22 @@
       ],
       "features": [
         "Setup Wizard (Org Domain / External Client App / Auth Provider / Named Credential / Remote Site / Validate)",
-        "Explorer — log list not loading",
-        "Explorer — View log (Log Viewer modal)",
-        "Explorer — AI Summary",
-        "Explorer — Download log",
-        "Explorer — Delete / Mass Delete",
-        "Trace Flags — list / create / extend / delete",
-        "Debug Levels — list / create / edit / delete",
+        "Explorer - log list not loading",
+        "Explorer - View log (Log Viewer modal)",
+        "Explorer - AI Summary",
+        "Explorer - Download log",
+        "Explorer - Delete / Mass Delete",
+        "Trace Flags - list / create / extend / delete",
+        "Debug Levels - list / create / edit / delete",
         "Other"
       ],
       "package_specific_field": {
         "label": "Setup Status",
         "description": "Have all 6 setup steps been completed in the Setup tab?",
         "options": [
-          "Yes — all 6 steps complete (Validate & Save shows success)",
-          "Partial — stuck on a setup step (specify in description)",
-          "No — setup not started yet",
+          "Yes - all 6 steps complete (Validate & Save shows success)",
+          "Partial - stuck on a setup step (specify in description)",
+          "No - setup not started yet",
           "Not sure"
         ]
       },
