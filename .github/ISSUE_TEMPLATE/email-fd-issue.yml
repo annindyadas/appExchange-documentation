@@ -1,4 +1,4 @@
-name: Email F&D — Bug or Support Request
+name: Email F&D - Bug or Support Request
 description: Report an issue or ask a setup question for the Email F&D package
 labels: ["email-fd"]
 body:
@@ -6,15 +6,15 @@ body:
     attributes:
       value: |
         Thanks for raising an issue with **Email F&D**.
-        Please fill in as much detail as possible — it helps us resolve your issue faster.
+        Please fill in as much detail as possible - it helps us resolve your issue faster.
   - type: dropdown
     id: issue-type
     attributes:
       label: Issue Type
       options:
-        - Bug — something is not working
-        - Setup Help — post-installation question
-        - Feature Request — suggest an improvement
+        - Bug - something is not working
+        - Setup Help - post-installation question
+        - Feature Request - suggest an improvement
     validations:
       required: true
   - type: dropdown
