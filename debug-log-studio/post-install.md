@@ -91,7 +91,7 @@ For detailed screenshots and instructions for each step, see the full **[User Gu
 
 ## What's Next?
 
-Once setup is complete, see the **[User Guide](./debug-log-studio-user-guide.md)** to start capturing and analyzing debug logs.
+Once setup is complete, see the **[User Guide](./user-guide.md)** to start capturing and analyzing debug logs.
 
 ---
 
