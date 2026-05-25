@@ -63,7 +63,7 @@ async function syncLabels() {
       if (status === 201) {
         console.log(`✅ Created label "${pkg.label}"`);
       } else {
-        console.log(`⚠️  Failed to create label "${pkg.label}" — status ${status}`);
+        console.log(`⚠️  Failed to create label "${pkg.label}" - status ${status}`);
       }
     }
   }
