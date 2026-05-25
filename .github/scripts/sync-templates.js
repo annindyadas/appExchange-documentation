@@ -10,7 +10,7 @@ for (const pkg of packages) {
   const packageSpecificOptions = pkg.package_specific_field.options
     .map(o => `        - ${o}`).join('\n');
 
-  const template = `name: ${pkg.name} — Bug or Support Request
+  const template = `name: ${pkg.name} - Bug or Support Request
 description: Report an issue or ask a setup question for the ${pkg.name} package
 labels: ["${pkg.label}"]
 body:
@@ -18,15 +18,15 @@ body:
     attributes:
       value: |
         Thanks for raising an issue with **${pkg.name}**.
-        Please fill in as much detail as possible — it helps us resolve your issue faster.
+        Please fill in as much detail as possible - it helps us resolve your issue faster.
   - type: dropdown
     id: issue-type
     attributes:
       label: Issue Type
       options:
-        - Bug — something is not working
-        - Setup Help — post-installation question
-        - Feature Request — suggest an improvement
+        - Bug - something is not working
+        - Setup Help - post-installation question
+        - Feature Request - suggest an improvement
     validations:
       required: true
   - type: dropdown
@@ -93,7 +93,7 @@ ${featureOptions}
 }
 
 // ── 2. Generate config.yml ────────────────────────────────────────────────
-const contactLinks = packages.map(pkg => `  - name: 📦 ${pkg.name} — Raise an Issue
+const contactLinks = packages.map(pkg => `  - name: 📦 ${pkg.name} - Raise an Issue
     url: ${pkg.links.raise_issue}
     about: Report a bug or ask a setup question for ${pkg.name}`).join('\n');
 
@@ -115,7 +115,7 @@ const tableRows = packages.map(pkg => {
   const releaseNotes = `[Release Notes](${pkg.links.release_notes})`;
   const demo = pkg.links.demo ? `[▶ Watch Demo](${pkg.links.demo})` : '▶ Coming Soon';
   const raiseIssue = `[Raise Issue](${pkg.links.raise_issue})`;
-  return `| **${pkg.name}** — ${pkg.description} | ${postInstall} | ${userGuide} | ${releaseNotes} | ${demo} | ${raiseIssue} |`;
+  return `| **${pkg.name}** - ${pkg.description} | ${postInstall} | ${userGuide} | ${releaseNotes} | ${demo} | ${raiseIssue} |`;
 }).join('\n');
 
 const newTable = `<!-- PACKAGES_TABLE_START -->
