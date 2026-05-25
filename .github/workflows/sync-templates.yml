@@ -1,0 +1,45 @@
+name: Sync Templates and README
+
+on:
+  push:
+    paths:
+      - 'packages.json'
+  workflow_run:
+    workflows: ["New Release Detected"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate issue templates, config.yml and README table
+        run: node .github/scripts/sync-templates.js
+
+      - name: Create GitHub labels for all packages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/create-labels.js
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/ISSUE_TEMPLATE/ README.md
+          git diff --staged --quiet || git commit -m "chore: auto-sync templates and README from packages.json [skip ci]"
+          git push

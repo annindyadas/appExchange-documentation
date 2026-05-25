@@ -1,0 +1,79 @@
+{
+  "packages": [
+    {
+      "name": "Email F&D",
+      "slug": "email-fd",
+      "description": "Forward & Download",
+      "label": "email-fd",
+      "label_color": "0075ca",
+      "versions": [
+        "1.0.0"
+      ],
+      "features": [
+        "Forward Emails (modal)",
+        "Download Emails (ZIP)",
+        "Download single email (EmailMessage action)",
+        "Permission Set assignment",
+        "Page Layout / Quick Action setup",
+        "Other"
+      ],
+      "package_specific_field": {
+        "label": "Permission Set Assigned",
+        "description": "Which permission set is assigned to the affected user?",
+        "options": [
+          "Email F&D Full Access",
+          "Email F&D Download Only",
+          "None assigned yet",
+          "Not sure"
+        ]
+      },
+      "org_details_placeholder": "Salesforce Edition: (e.g. Enterprise, Unlimited)\nAPI Version:\nEmail-to-Case enabled: Yes / No\n\"Save Email-to-Case attachments as Salesforce Files\" enabled: Yes / No / Not applicable",
+      "links": {
+        "post_install": "https://annindyadas.github.io/appExchange-documentation/email-fd/post-install",
+        "user_guide": "https://annindyadas.github.io/appExchange-documentation/email-fd/user-guide",
+        "release_notes": "https://annindyadas.github.io/appExchange-documentation/email-fd/release-notes",
+        "demo": null,
+        "raise_issue": "https://github.com/annindyadas/appExchange-documentation/issues/new?template=email-fd-issue.yml"
+      }
+    },
+    {
+      "name": "Debug Log Studio",
+      "slug": "debug-log-studio",
+      "description": "Explore, Analyze & Manage Debug Logs",
+      "label": "debug-log-studio",
+      "label_color": "e4e669",
+      "versions": [
+        "1.0.0 (Beta)"
+      ],
+      "features": [
+        "Setup Wizard (Org Domain / External Client App / Auth Provider / Named Credential / Remote Site / Validate)",
+        "Explorer — log list not loading",
+        "Explorer — View log (Log Viewer modal)",
+        "Explorer — AI Summary",
+        "Explorer — Download log",
+        "Explorer — Delete / Mass Delete",
+        "Trace Flags — list / create / extend / delete",
+        "Debug Levels — list / create / edit / delete",
+        "Other"
+      ],
+      "package_specific_field": {
+        "label": "Setup Status",
+        "description": "Have all 6 setup steps been completed in the Setup tab?",
+        "options": [
+          "Yes — all 6 steps complete (Validate & Save shows success)",
+          "Partial — stuck on a setup step (specify in description)",
+          "No — setup not started yet",
+          "Not sure"
+        ]
+      },
+      "org_details_placeholder": "Salesforce Edition: (e.g. Enterprise, Developer, Unlimited)\nAPI Version:\nAgentforce enabled: Yes / No\nNamed Credential status: Authenticated / Pending / Not created\nRemote Site Setting active: Yes / No / Not created",
+      "links": {
+        "post_install": "https://annindyadas.github.io/appExchange-documentation/debug-log-studio/post-install",
+        "user_guide": "https://annindyadas.github.io/appExchange-documentation/debug-log-studio/user-guide",
+        "release_notes": "https://annindyadas.github.io/appExchange-documentation/debug-log-studio/release-notes",
+        "demo": "https://www.youtube.com/@annindyadas",
+        "raise_issue": "https://github.com/annindyadas/appExchange-documentation/issues/new?template=debug-log-studio-issue.yml"
+      }
+    }
+  ]
+}
