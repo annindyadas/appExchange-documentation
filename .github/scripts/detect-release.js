@@ -30,8 +30,8 @@ function processPackage(slug) {
 
   const content = fs.readFileSync(releaseNotesPath, 'utf8');
 
-  // Extract all version headings e.g. "## Version 1.1.0 — May 2026"
-  const versionRegex = /^## Version ([^\s—–-]+)/gm;
+  // Extract all version headings e.g. "## Version 1.1.0 - May 2026"
+  const versionRegex = /^## Version ([^\s-–-]+)/gm;
   const matches = [...content.matchAll(versionRegex)];
 
   if (matches.length === 0) {
@@ -41,7 +41,7 @@ function processPackage(slug) {
 
   // All versions found in the release notes file
   const versionsInFile = matches.map(m => m[1]);
-  console.log(`📦 ${slug} — versions found in release-notes.md: ${versionsInFile.join(', ')}`);
+  console.log(`📦 ${slug} - versions found in release-notes.md: ${versionsInFile.join(', ')}`);
 
   // Update packages.json
   const packagesData = JSON.parse(fs.readFileSync('packages.json', 'utf8'));
@@ -66,6 +66,6 @@ function processPackage(slug) {
     fs.writeFileSync('packages.json', JSON.stringify(packagesData, null, 2) + '\n', 'utf8');
     console.log(`✅ packages.json updated for ${slug}`);
   } else {
-    console.log(`ℹ️  No new versions detected for ${slug} — packages.json unchanged`);
+    console.log(`ℹ️  No new versions detected for ${slug} - packages.json unchanged`);
   }
 }
