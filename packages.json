@@ -43,7 +43,7 @@
       "label": "debug-log-studio",
       "label_color": "e4e669",
       "versions": [
-        "1.0.0 (Beta)"
+        "1.0.0"
       ],
       "features": [
         "Setup Wizard (Org Domain / External Client App / Auth Provider / Named Credential / Remote Site / Validate)",
