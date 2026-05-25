@@ -1,4 +1,4 @@
-# Debug Log Studio — Post-Install Setup Guide
+# Debug Log Studio - Post-Install Setup Guide
 
 Thank you for installing **Debug Log Studio**! Follow the steps below to complete the one-time configuration before using the app.
 
@@ -36,12 +36,12 @@ For detailed screenshots and instructions for each step, see the full **[User Gu
 
 ### Quick Reference
 
-**Step 1 — Org Domain**
+**Step 1 - Org Domain**
 - Open Debug Log Studio → Setup tab
 - Verify the auto-detected My Domain URL
 - Click **Confirm & Continue**
 
-**Step 2 — External Client App**
+**Step 2 - External Client App**
 - Setup → Apps → External Client Apps → External Client App Manager → **New External Client App**
 - Name: `Debug Log Studio` | API Name: `Debug_Log_Studio`
 - Enable OAuth, paste the Callback URL from the setup wizard
@@ -51,13 +51,13 @@ For detailed screenshots and instructions for each step, see the full **[User Gu
 - Policies tab: Enable **Client Credentials Flow**, set **Run As** to an admin user
 - ⚠️ Copy the **Consumer Key** and **Consumer Secret** before proceeding
 
-**Step 3 — Auth Provider**
+**Step 3 - Auth Provider**
 - Setup → Identity → Auth. Providers → **New** → Provider Type: `Salesforce`
 - Name: `Debug_Log_Studio_AP`
 - Paste Consumer Key, Consumer Secret, Authorize Endpoint URL, Token Endpoint URL, Default Scopes from wizard
 - Click **Save** → click **"I've created the Auth Provider"** in the wizard
 
-**Step 4 — Named Credential**
+**Step 4 - Named Credential**
 - Setup → Security → Named Credentials → **New Legacy** (use the dropdown, not New)
 - Label & Name: `Debug_Log_Studio_NC`
 - URL: your org domain (from wizard)
@@ -65,16 +65,16 @@ For detailed screenshots and instructions for each step, see the full **[User Gu
 - Check **Start Authentication Flow on Save** and **Generate Authorization Header**
 - Click **Save** → click **Allow** on the OAuth screen
 
-**Step 5 — Remote Site Setting**
+**Step 5 - Remote Site Setting**
 - Setup → Security → Remote Site Settings → **New Remote Site**
 - Name: `DebugLogStudio` | URL: your org domain (from wizard)
 - Description: `Remote site for Debug Log Studio Tooling API access.`
 - Ensure **Active** is checked, leave **Disable Protocol Security** unchecked
 - Click **Save**
 
-**Step 6 — Validate & Save**
-- Click **Validate Connection** — look for: `Connection successful! Tooling API responded with status 200.`
-- Click **Save** — look for: `Setup has been completed.`
+**Step 6 - Validate & Save**
+- Click **Validate Connection** - look for: `Connection successful! Tooling API responded with status 200.`
+- Click **Save** - look for: `Setup has been completed.`
 
 ---
 
