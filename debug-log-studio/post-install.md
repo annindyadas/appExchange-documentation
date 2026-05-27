@@ -36,12 +36,12 @@ For detailed screenshots and instructions for each step, see the full **[User Gu
 
 ### Quick Reference
 
-![Debug Log Studio - Org Domain](./images/dls-setup-step1-org-domain.png)
-
 **Step 1 - Org Domain**
 - Open Debug Log Studio → Setup tab
 - Verify the auto-detected My Domain URL
 - Click **Confirm & Continue**
+
+![Debug Log Studio - Org Domain](./images/dls-setup-step1-org-domain.png)
 
 **Step 2 - External Client App**
 - Setup → Apps → External Client Apps → External Client App Manager → **New External Client App**
@@ -53,11 +53,16 @@ For detailed screenshots and instructions for each step, see the full **[User Gu
 - Policies tab: Enable **Client Credentials Flow**, set **Run As** to an admin user
 - ⚠️ Copy the **Consumer Key** and **Consumer Secret** before proceeding
 
+![Debug Log Studio - OAuth Settings](./images/dls-setup-step2b-oauth-settings.png)
+![Debug Log Studio - Policies](./images/dls-setup-step2d-policies.png)
+
 **Step 3 - Auth Provider**
 - Setup → Identity → Auth. Providers → **New** → Provider Type: `Salesforce`
 - Name: `Debug_Log_Studio_AP`
 - Paste Consumer Key, Consumer Secret, Authorize Endpoint URL, Token Endpoint URL, Default Scopes from wizard
 - Click **Save** → click **"I've created the Auth Provider"** in the wizard
+
+![Debug Log Studio - Auth.Provider](./images/dls-setup-step-auth-provider.png)
 
 **Step 4 - Named Credential**
 - Setup → Security → Named Credentials → **New Legacy** (use the dropdown, not New)
@@ -67,6 +72,8 @@ For detailed screenshots and instructions for each step, see the full **[User Gu
 - Check **Start Authentication Flow on Save** and **Generate Authorization Header**
 - Click **Save** → click **Allow** on the OAuth screen
 
+![Debug Log Studio - Named Credentials](./images/dls-setup-step-named-cred.png)
+
 **Step 5 - Remote Site Setting**
 - Setup → Security → Remote Site Settings → **New Remote Site**
 - Name: `DebugLogStudio` | URL: your org domain (from wizard)
@@ -74,9 +81,13 @@ For detailed screenshots and instructions for each step, see the full **[User Gu
 - Ensure **Active** is checked, leave **Disable Protocol Security** unchecked
 - Click **Save**
 
+![Debug Log Studio - Remote Site Settings](./images/dls-setup-step-remote-site.png)
+
 **Step 6 - Validate & Save**
 - Click **Validate Connection** - look for: `Connection successful! Tooling API responded with status 200.`
 - Click **Save** - look for: `Setup has been completed.`
+
+![Debug Log Studio - Org Domain](./images/dls-setup-step-validate.png)
 
 ---
 
