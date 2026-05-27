@@ -101,9 +101,6 @@ Each row shows enriched metadata beyond the standard Salesforce log list: **User
 
 ### Available Actions
 
-![Explorer tab - Debug Logs Available Actions](./images/dls-main-interface-available-actions.png)
-
-
 | Action | Description |
 |--------|-------------|
 | **View** | Opens the full log in the Debug Log Viewer pop-up |
@@ -113,6 +110,7 @@ Each row shows enriched metadata beyond the standard Salesforce log list: **User
 | **Mass Delete** | Deletes all logs in the system in one click |
 | **Refresh** | Fetches latest logs without refreshing the page |
 
+![Explorer tab - Debug Logs Available Actions](./images/dls-main-interface-available-actions.png)
 ---
 
 ## 5. Log Viewer & AI Summary
