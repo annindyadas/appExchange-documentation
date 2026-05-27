@@ -54,6 +54,7 @@ For detailed screenshots and instructions for each step, see the full **[User Gu
 - ⚠️ Copy the **Consumer Key** and **Consumer Secret** before proceeding
 
 ![Debug Log Studio - OAuth Settings](./images/dls-setup-step2b-oauth-settings.png)
+
 ![Debug Log Studio - Policies](./images/dls-setup-step2d-policies.png)
 
 **Step 3 - Auth Provider**
