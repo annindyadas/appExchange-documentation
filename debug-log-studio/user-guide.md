@@ -38,7 +38,7 @@ Once setup is complete, open **Debug Log Studio** from the App Launcher. The int
 
 The **Debug Levels** tab lists all Debug Levels from your org, automatically loaded on open.
 
-![Debug Levels tab - auto-populated list](./images/dls-debug-levels-list.png)
+![Debug Levels tab - auto-populated list](./images/dls-debug-levels.png)
 
 ### Creating a New Debug Level
 
@@ -64,7 +64,7 @@ The **Debug Levels** tab lists all Debug Levels from your org, automatically loa
 
 The **Trace Flags** tab lists all Trace Flags in your org with their status (Active/Inactive), Debug Level, and Start/Expiration times.
 
-![Trace Flags tab - list with Active/Inactive status](./images/dls-trace-flags-list.png)
+![Trace Flags tab - list with Active/Inactive status](./images/dls-trace-flags.png)
 
 ### Extending a Trace Flag
 
