@@ -14,6 +14,8 @@ Without this, email attachments will be missing when forwarding or downloading.
 
 `Setup → Email-to-Case → Enable "Save Email-to-Case attachments as Salesforce Files" → Save`
 
+![Email2Case](./images/email-fd-email-to-case.png)
+
 ---
 
 ## Step 1 - Assign Permission Sets
@@ -37,6 +39,8 @@ Required if users will be forwarding emails. Skip this step if your org only nee
 
 `Setup → Email → Deliverability → Access Level → Set to "All Email" → Save`
 
+![Email Deliverability](./images/email-fd-deliverability.png)
+
 ---
 
 ## Step 3 - Add Download Action to EmailMessage Layout
@@ -50,11 +54,13 @@ The **Download** quick action is included in the package but must be added to th
 3. Drag **Download** from available actions into the action bar
 4. Click **Save**
 
+![Email Message Action](./images/email-fd-emailmessage-action.png)
+
 ---
 
-## Step 4 - Set Up Forward Emails Action *(per object)*
+## Step 4 - Set Up Email F&D Action *(per object)*
 
-The **Forward Emails** action must be created manually on each object where you want it - for example Case, Contact, Account, or Opportunity. Repeat these steps for each object.
+The **Email F&D** action must be created manually on each object where you want it - for example Case, Contact, Account, or Opportunity. Repeat these steps for each object.
 
 ### Create the Quick Action
 
@@ -69,6 +75,8 @@ The **Forward Emails** action must be created manually on each object where you 
 
 Click **Save**.
 
+![Case Email Action](./images/email-fd-object-action.png)
+
 ### Add to Page Layout
 
 `Setup → Object Manager → [Your Object] → Page Layouts → Edit your layout`
@@ -78,6 +86,8 @@ Click **Save**.
 3. Drag **Forward Emails** into the action bar
 4. Click **Save**
 
+![Email Action](./images/email-fd-object-action.png)
+
 ### If your org uses Dynamic Actions *(Lightning App Builder)*
 
 `Setup → Lightning App Builder → Edit the Record Page for your object`
@@ -86,6 +96,8 @@ Click **Save**.
 2. In the properties panel find **Actions**
 3. Click **Add Action → Forward Emails**
 4. **Save and Activate** the page
+
+![Dynamic Actions](./images/email-fd-dynamic-action.png)
 
 ---
 
@@ -111,6 +123,8 @@ Click **Save**.
 5. Choose your action:
    - **Forward** - enter a recipient email address and click Send. Emails are delivered as `.eml` attachments including all original attachments
    - **Download** - click Download to save selected emails as a ZIP file containing individual `.eml` files with all attachments
+
+   ![Email F&D UI](./images/email-fd-ui.png)
 
 ---
 
