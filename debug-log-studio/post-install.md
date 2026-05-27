@@ -36,6 +36,8 @@ For detailed screenshots and instructions for each step, see the full **[User Gu
 
 ### Quick Reference
 
+![Debug Log Studio - Org Domain](./images/dls-setup-step1-org-domain.png)
+
 **Step 1 - Org Domain**
 - Open Debug Log Studio → Setup tab
 - Verify the auto-detected My Domain URL
