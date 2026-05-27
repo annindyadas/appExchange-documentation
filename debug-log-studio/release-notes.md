@@ -1,19 +1,22 @@
 # Debug Log Studio - Release Notes
 ---
 
-Version 1.2 — UX Label Updates & Minor Enhancements
+##Version 1.2 — UX Label Updates & Minor Enhancements
 
 - Updated column labels in the Explorer tab for better readability and consistency.
 - Applied minor UI/content polish updates across related screens.
 - Included small maintenance improvements and cleanup changes to improve overall usability and reliability.
+
 ---
-Version 1.1 — Security & Platform Hardening
+
+##Version 1.1 — Security & Platform Hardening
 
 - Improved query security model by replacing WITH SECURITY_ENFORCED with WITH USER_MODE in Apex query paths.
 - Upgraded metadata/API versions to align with current Salesforce platform standards (including API version updates to 65.0 where applicable).
 - Strengthened sharing/security posture in core setup/config flows.
 - Added additional input/domain hardening in setup-related UX flows.
 - Included supporting stability updates and test adjustments for compatibility with these security/platform changes.
+
 ---
 
 ## Version 1.0 - 2026
