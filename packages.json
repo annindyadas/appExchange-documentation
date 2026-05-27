@@ -7,7 +7,7 @@
       "label": "email-fd",
       "label_color": "0075ca",
       "versions": [
-        "1.0.0"
+        "1.0.0", "1.1.0", "1.2.0"
       ],
       "features": [
         "Forward Emails (modal)",
@@ -43,7 +43,7 @@
       "label": "debug-log-studio",
       "label_color": "e4e669",
       "versions": [
-        "1.0.0"
+        "1.0.0",  "1.1.0",  "1.2.0",  "1.3.0"
       ],
       "features": [
         "Setup Wizard (Org Domain / External Client App / Auth Provider / Named Credential / Remote Site / Validate)",
