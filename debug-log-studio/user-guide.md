@@ -97,7 +97,7 @@ The **Explorer** tab is the main log viewer. With an active Trace Flag in place,
 
 Each row shows enriched metadata beyond the standard Salesforce log list: **User, Request Type, Application, Operation, Status, Duration (ms), Log Size (bytes), Start Time, Type, Class Name, Method Type**.
 
-![Explorer tab - Debug Logs list with enriched columns](./images/dls-explorer-list.png)
+![Explorer tab - Debug Logs list with enriched columns](./images/dls-main-interface.png)
 
 ### Available Actions
 
