@@ -24,6 +24,8 @@ body:
       description: Find this in Setup → Installed Packages → Email F&D
       options:
         - "1.0.0"
+        - "1.1.0"
+        - "1.2.0"
         - Other (specify in description)
     validations:
       required: true
