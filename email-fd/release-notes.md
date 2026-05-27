@@ -78,7 +78,7 @@ If your org has users assigned to the old `Email_Forwarder_Full_Access` or `Emai
 ### Known limitations
 
 - Email Deliverability must be set to **All Email** in org settings for the forward feature to send emails
-- The **Forward Emails** quick action must be created manually per object - it cannot be packaged as a global action
+- The **Email F&D** quick action must be created manually per object - it cannot be packaged as a global action
 - **Dynamic Actions** (Lightning App Builder) require manual configuration per record page
 - Save Email-to-Case attachments as Salesforce Files must be enabled for attachment support on Email-to-Case records
 
